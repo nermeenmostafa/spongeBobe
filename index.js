@@ -1,4 +1,4 @@
-import EnemyController from "./EnemyController.JS";
+import EnemyController from "./EnemyController.js";
 import Player from "./Player.js";
 import BulletController from "./BulletController.js";
 
@@ -6,8 +6,6 @@ const canvas = document.getElementById("game");
 const startBtn = document.getElementById("start-btn");
 const pauseBtn = document.getElementById("pause-btn");
 const ctx = canvas.getContext("2d");
-
-
 
 canvas.width = 900;
 canvas.height = 600;
