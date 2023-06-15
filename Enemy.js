@@ -6,7 +6,7 @@ export default class Enemy{
         this.width=50;
         this.height=33;
         this.image=new Image();
-        this.image.src=`images/burger${imageNumber}.png`
+        this.image.src=`./images/burger${imageNumber}.png`
     }
     draw(ctx){
         ctx.drawImage(this.image,this.x,this.y,this.width,this.height);

@@ -15,7 +15,7 @@ export default class Player {
         this.width = 200;
         this.height = 130;
         this.image = new Image();
-        this.image.src = "images/spongebob.png";
+        this.image.src = "./images/spongebob.png";
 
         document.addEventListener("keydown", this.keydown);
         document.addEventListener('keyup', this.keyup);
